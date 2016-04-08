@@ -368,15 +368,22 @@ header {
 	min-height: 500px;
 }
 .experience-head {
-	  flex: 1 0 auto;
-		align-items: center;  
+	background: grey;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	margin: 0 0 10px 0;
+	color: rgb(127,140,141);
 }
 .logo-name-cont {
 	background: pink;
-	display: flex;
 	align-items: center;
+	display: flex;
 }
-
+.logo-cont {
+	margin: 0px 50px 0 0;
+}
 .company-logo {
 	width: 100px;
 	height: 100px;
@@ -384,21 +391,23 @@ header {
 	overflow: hidden;
 	display: table-cell;
 	vertical-align: middle;
-}
+} 
 
 .company-logo img {
 	max-height: 100px;
 	max-width: 100px;
 }
-
-
-.intervals {
-	
-}
 .company-name {
-		
+	font-size: 32px;
+	text-decoration: underline;
 }	
-
+.company-name h4 {
+	margin: 0px;
+}
+.intervals {
+	font-weight: bold;
+	font-size: 20px;	
+}
 
 /* ---=== EDUCATION BLOCK ===--- */
 .education-content-block {
